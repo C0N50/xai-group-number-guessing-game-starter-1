@@ -144,6 +144,10 @@ function restartGame() {
   }).then((response) => {
     myNumber = response;
     console.log('New Random Number');
+
+    $('#firstScreen').show()
+    $('#secondScreen').hide()
+
   });
 }
 

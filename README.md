@@ -1,3 +1,5 @@
+## Deployed link: [here](https://xaihang.github.io/group-number-guessing-game-starter/)
+
 # Team Random Number Guess
 
 In this challenge, you will be creating a number guessing game! You'll have plenty of time to work on this as a group. Start by spending 5 minutes reading through the requirements individually. After reading through the requirements, come together as a group and talk about what you would like to get out of the project.
