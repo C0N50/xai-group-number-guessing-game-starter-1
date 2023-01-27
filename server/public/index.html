@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Guess A Number!</title>
+  <script src="vendors/jquery.min.js"></script>
+  <script src="scripts/client.js"></script>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<!-- first screen  -->
+
+<div id="firstScreen">
+<h1>Welcome</h1>
+<h2>Pick number</h2>
+<input id="minNumber" type="text" placeholder="min number">
+<input id="maxNumber" type="text" placeholder="max number">
+<button id="startBtn">Start the game</button>
+</div>
+
+  <!-- second screen once game start -->
+  <div id="secondScreen">
+    <h1 class = 'title'>GUESS A NUMBER BETWEEN <span id="minSpan"></span> AND <span id="maxSpan"></span>!</h1>
+
+
+
+    <form id="guessForm">
+      <div>Connor
+      <input id="connor" type="number" min="1" max="25" size="15" placeholder="your guess" />
+      </div>
+      <div>Xai
+      <input id="xai" type="number" min="1" max="25" placeholder="your guess" />
+      </div>  
+      <input id="submit-button" width="20" type="submit"/>
+    </form>
+   
+
+    <div class = 'round'></div>
+
+    <section class="result">
+      <p class ='players'>Connor guessed:</p>       <p class = 'players'>Xai guessed:</p>
+      <div class = 'connor-guess'></div>
+      <div class = 'xai-guess'></div>
+      <div class = 'result-message'></div>
+
+    </section>
+  </div>
+</body>
+</html>

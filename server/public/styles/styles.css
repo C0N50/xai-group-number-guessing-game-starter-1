@@ -1,0 +1,69 @@
+input[type='number']{
+    width: 80px;
+} 
+
+body {
+    background-color: aqua;
+}
+
+.title {
+    font-size: 3.5em;
+    color: rgb(203, 83, 129);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.result {
+    display : grid;
+    grid-template-columns:repeat(2, 1fr);
+    font-size: 1.25em;
+    color: rgb(203, 83, 129);
+    font-weight: bold;
+}
+
+
+.players {
+    font-size: 2em;
+    color: rgb(203, 83, 129);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#guessForm {
+    
+    display: grid;
+    grid-template-columns:repeat(2, 25%);
+    font-size: 2em;
+    color: rgb(203, 83, 129);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.round {
+    font-size: 1.5em;
+    color: rgb(203, 83, 129);
+    font-weight: bold;
+}
+
+.connor-guess { 
+    font-size: 1em;
+    color: rgb(203, 83, 129);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;   
+}
+
+.xai-guess {
+    font-size: 1em;
+    color: rgb(203, 83, 129);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;   
+}
+
+.result-message {
+    font-size: 3em;
+    color: rgb(203, 83, 129);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;   
+
+}   
